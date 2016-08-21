@@ -1,3 +1,22 @@
+/****************************************************************************************************************
+ * **************************************************************************************************************
+ *  Fecha: 21/08/2016       Autor: ABarrosoG         
+ *  
+ *  Material: WeMos D1 Mini + Led emisor 940nm / 5mm
+ *  
+ *  Objetivo: 
+ *            -Primero.- ON / OFF del Aire Acondicionado y establecer valores de temperatura sin estar presente.
+ *            -Segundo.- La finalidad de la versión WebServer es tomar datos del control solar, para cuando 
+ *                        existan excedentes fotovoltáicos regule automáticamente la maquina de aire acondicoinado.
+ *                        
+ *  Conexión:   -  La conexión del led IR se realiza al GPIO4
+ *                 
+ * LICENCIA DE USO APACHE, si mejoras el programa o añades funcionalidades, por favor, compártelo!
+ * 
+ * LICENSE APACHE http://www.apache.org/licenses/
+ * ***************************************************************************************************************
+ * *************************************************************************************************************** */
+ 
 #include <IRremoteESP8266.h>
 #include <ESP8266WiFi.h>
 #include <Wire.h>
