@@ -16,22 +16,18 @@ IRsend irsend(4);
 
 void setup(){
   Serial.begin(9600);
-  Serial.println("pu");
   irsend.begin();
   Blynk.begin(auth, ssid, password); //conexión
 
-  Serial.println("pa");
   delay(100);
   
   // Intentará conectarse 4 veces al servidor blynk
   int con = 0;
    do {
   conectado = Blynk.connect();
-  Serial.println("pe");
   con = con+1;
    } while (!conectado && con <=3);
   Serial.println(F("Blynk v" BLYNK_VERSION ": Device started"));
-  Serial.println("pi");
 }
 void loop(){
   if (conectado) {Blynk.run();}
