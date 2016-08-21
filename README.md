@@ -12,7 +12,8 @@ Creación: 21/08/2016
 Autor: ABarrosoG
 Location: Seville - Spain
 
-    *Material:
-        +Placa WeMos D1 mini
-        +Led 940nm
-        +Una resistencia 100 0hm
+    * Material:
+        + Placa WeMos D1 mini
+        + Led 940nm
+        + Una resistencia 100 0hm
+        
